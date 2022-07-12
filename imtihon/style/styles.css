@@ -1,0 +1,763 @@
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+      url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/open-sans-v29-latin-regular.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+      url('../fonts/open-sans-v29-latin-700.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/open-sans-v29-latin-700.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/* header-qismi */
+
+.header-container {
+   margin: 0 auto;
+   width: 1300px;
+   background: white;
+   margin-top: 15px;
+}
+
+.logo {
+   margin-left: 100px;
+   margin-top: 18px;
+}
+
+.logo:hover {
+   transform: scale(1.5);
+   transition: 2s;
+}
+
+.header-inner {
+   display: flex;
+   height: 56px;
+}
+
+.bosh-sahifa {
+   display: flex;
+   margin-left: 309px;
+   margin-top: 16px;
+}
+
+.sahifa {
+   list-style-type: none;
+   margin-left: 32px;
+}
+
+.none {
+   text-decoration: none;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24px;
+   /* identical to box height, or 160% */
+   color: #000000;
+}
+
+.none:hover {
+   color: #00BAFC;
+}
+
+.none:active {
+   background-color: black;
+}
+
+.tel {
+   width: 158px;
+   height: 39px;
+   background: #00BAFC;
+   border: none;
+   border-radius: 6px;
+   margin-left: 24px;
+   margin-top: 6px;
+}
+
+.nammer {
+   text-decoration: none;
+   color: white;
+}
+
+.nammer:hover {
+   box-shadow: 0px 2px 0px red;
+}
+
+/* section qismi */
+.container {
+   margin: 0 auto;
+   width: 1300px;
+   height: 2970px;
+   background: white;
+}
+
+h1 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 130%;
+   color: #000000;
+   margin-top: 97px;
+   margin-left: 100px;
+}
+
+.section-inner {
+   display: flex;
+}
+
+.text-style {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #a19d9d;
+   margin-left: 100px;
+}
+
+.kirish {
+   font-family: 'Open Sans';
+   font-weight: 400;
+   width: 234px;
+   height: 39px;
+   background: #00BAFC;
+   border: none;
+   border-radius: 6px;
+   color: white;
+   margin-left: 100px;
+   margin-top: 16px;
+}
+
+h1:hover {
+   box-shadow: 0px 1px 0px red;
+}
+
+.kirish:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.kirish:active {
+   background-color: blue;
+   transition: 1s;
+}
+
+.wfe {
+   width: 458px;
+   height: 258px;
+   margin-left: 188px;
+   margin-top: 80px;
+   border-radius: 5px;
+}
+
+.xizmatler {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+
+   margin-top: 136px;
+}
+
+.paragraph {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+}
+
+.lorem {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000;
+}
+
+.nulam {
+   width: 719px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000 !important;
+   margin-top: 16px;
+   margin-bottom: 24px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.box {
+   display: flex;
+   text-align: center;
+}
+
+.order {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+
+.services-1 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   text-decoration-line: underline;
+   color: #00BAFC;
+}
+
+.navbar {
+   width: 320px;
+   height: 264px;
+   margin-left: 70px;
+   margin-top: 24px;
+   box-shadow: 0px 10px 10px 0px rgb(179, 176, 176);
+}
+
+.navbar-1 {
+   width: 320px;
+   height: 264px;
+   margin-left: 100px;
+   margin-top: 24px;
+   box-shadow: 0px 10px 10px 0px rgb(179, 176, 176);
+}
+
+.website {
+   margin-top: 24px;
+}
+
+h3 {
+   margin-top: 16px;
+}
+
+.lorem {
+   margin-top: 16px;
+   color: #a19d9d;
+}
+
+.box-inner {
+   display: flex;
+   text-align: center;
+}
+
+.navbar-2 {
+   width: 320px;
+   height: 264px;
+   margin-left: 293px;
+   margin-top: 48px;
+   box-shadow: 0px 10px 10px 0px rgb(179, 176, 176);
+}
+
+.navbar-3 {
+   width: 320px;
+   height: 264px;
+   margin-left: 70px;
+   margin-top: 48px;
+   margin-left: 70px;
+   box-shadow: 0px 10px 10px 0px rgb(179, 176, 176);
+}
+
+
+.services {
+   display: flex;
+}
+
+.order {
+   width: 166px;
+   height: 39px;
+   background: #00BAFC;
+   border: none;
+   border-radius: 5px;
+   margin-left: 461px;
+   margin-top: 40px;
+   color: white;
+}
+
+.services-1 {
+   width: 192px;
+   height: 24px;
+   margin-top: 48px;
+   margin-left: 16px;
+   border: none;
+   background: white;
+   color: #00BAFC;
+}
+
+.services-1:hover {
+   transform: scale(1.1);
+   transition: 1s;
+
+}
+
+.order:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.order:active {
+   background-color: blue;
+   transition: 1s;
+}
+
+.work {
+   margin-top: 112px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+}
+
+.how {
+   margin-top: 16px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #000000;
+}
+
+h1:hover {
+   color: red;
+}
+
+.we-will-not {
+   display: flex;
+}
+
+.not-clarify {
+   margin-left: 234px;
+   margin-top: 24px;
+}
+
+.the-not {
+   margin-left: 32px;
+   margin-top: 122px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   color: #000000;
+}
+
+.we-the-not {
+   margin-left: 32px;
+   margin-top: 8px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.we-offer {
+   display: flex;
+}
+
+.several {
+   margin-top: 141px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+}
+
+.solutions {
+   margin-left: 204px;
+   margin-top: 8px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.offer-several {
+   margin-top: 58px;
+   margin-left: 90px;
+}
+
+.we-seta {
+   display: flex;
+}
+
+.seta-time {
+   margin-left: 234px;
+   margin-top: 53px;
+}
+
+.time-for {
+   margin-top: 153px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   color: #000000;
+   margin-left: 40px;
+}
+
+.the-project {
+   margin-left: 33px;
+   margin-top: 8px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.to-complete {
+   display: flex;
+}
+
+.with {
+   margin-top: 104px;
+   margin-left: 0px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+}
+
+.excellent {
+
+   margin-left: 200px;
+   margin-top: 8px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.quality {
+   margin-top: 56px;
+   margin-left: 90px;
+}
+
+.we-will {
+   display: flex;
+}
+
+.we-will-support {
+   margin-top: 50px;
+   margin-left: 234px;
+}
+
+.support {
+   margin-top: 135px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   margin-left: 44px;
+   color: #000000;
+}
+
+.supp {
+   width: 650px;
+   margin-left: 44px;
+   margin-top: 8px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.bottom {
+   width: 166px;
+   height: 39px;
+   background: #00BAFC;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   margin-top: 57px;
+   margin-left: 600px;
+   margin-right: auto;
+}
+
+.top:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.top:active {
+   background-color: blue;
+   transition: 1s;
+}
+
+/* ikkinchi section */
+.section-container {
+   width: 1300px;
+   height: 543px;
+   margin: 0 auto;
+   background: #00BAFC;
+   margin-top: 56px;
+}
+
+.soloid {
+   width: 203px;
+   height: 31px;
+   background: #00BAFC;
+   color: white;
+   border: none;
+   margin-left: 548px;
+   margin-top: 56px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   color: #FFFFFF;
+
+}
+
+
+.ullam {
+
+   text-align: center;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   /* or 24px */
+
+   text-align: center;
+
+   color: #030303 !important;
+}
+
+.license-transefer {
+   width: 348px;
+   height: 304px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 24px;
+   background: white;
+   border-radius: 5px;
+   padding-left: 24px;
+   padding-left: auto;
+   padding-right: auto;
+}
+
+.isim {
+   width: 300px;
+   height: 56px;
+   margin-top: 24px;
+   background: rgb(223, 216, 216);
+   border: none;
+   border-radius: 5px;
+   padding-left: 16px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+
+.telfon {
+   width: 300px;
+   height: 56px;
+   margin-top: 16px;
+   background: rgb(223, 216, 216);
+   border: none;
+   border-radius: 5px;
+   padding-left: 16px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+
+.region-top {
+   width: 315px;
+   height: 56px;
+   border: none;
+   background: rgb(223, 216, 216);
+   margin-top: 16px;
+   border-radius: 5px;
+   padding-left: 16px;
+   margin-right: 20px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+
+.excellent-1 {
+   width: 167px;
+   height: 40px;
+   background: #00BAFC;
+   margin-left: 90px;
+   margin-top: 16px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+
+.excellent-1:hover {
+   transform: scale(1.1);
+   background: blue;
+   transition: 1s;
+}
+
+/* footer qismi */
+.footer-kontainer {
+   margin: auto;
+   display: flex;
+   width: 1300px;
+   height: 338px;
+   background: #191919;
+}
+
+.cupyright {
+   color: white;
+   margin-top: 56px;
+   margin-left: 100px;
+}
+
+.cupyright-2020 {
+   margin-left: 100px;
+   margin-top: 16px;
+   color: white;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+}
+
+.nav {
+   color: white;
+   text-decoration: none;
+}
+
+.cupyright-2020:hover {
+   color: #00BAFC;
+}
+
+.laet-text {
+   display: flex;
+}
+
+.saxifalar {
+   text-decoration: none;
+   color: white;
+   margin-top: 56px;
+   margin-left: 100px;
+}
+
+.blog {
+   margin-left: 200px;
+}
+
+.asedi {
+   list-style-type: none;
+   color: white;
+   margin-top: 16px;
+   text-decoration: none;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.internet {
+   text-decoration: none;
+   color: white;
+   margin-left: 87px;
+   margin-top: 56px;
+}
+
+.footer-list {
+   list-style-type: none;
+   margin-left: 170px;
+   margin-top: 16px;
+}
+
+.list-item {
+   margin-top: 8px;
+}
+
+.list-item-link {
+   display: flex;
+   text-decoration: none;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.list-item-img {}
+
+.list-item-text {
+   margin-left: 8px;
+   color: white;
+}
